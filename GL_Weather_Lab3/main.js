@@ -95,16 +95,16 @@ function changeBg(status) {
 // Function to get background image URL based on weather status
 function getBackgroundImage(status) {
     const backgroundImages = {
-        Clouds: 'img/clouds.jpg',
-        Rain: 'img/rainy.jpg',
-        Clear: 'img/clear.jpg',
-        Snow: 'img/snow.jpg',
-        Sunny: 'img/sunny.jpg',
-        Thunderstorm: 'img/thunderstorm.jpg',
-        Drizzle: 'img/drizzle.jpg',
-        Mist: 'img/mist.jpg',
-        Haze: 'img/mist.jpg',
-        Fog: 'img/mist.jpg',
+        Clouds: 'img/bg.jpg',
+        Rain: 'img/bg.jpg',
+        Clear: 'img/bg.jpg',
+        Snow: 'img/bg.jpg',
+        Sunny: 'img/bg.jpg',
+        Thunderstorm: 'img/bg.jpg',
+        Drizzle: 'img/bg.jpg',
+        Mist: 'img/bg.jpg',
+        Haze: 'img/bg.jpg',
+        Fog: 'img/bg.jpg',
     };
     return backgroundImages[status] || 'img/bg.jpg';
 }
