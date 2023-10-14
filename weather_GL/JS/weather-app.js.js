@@ -58,17 +58,7 @@ class WeatherApp {
       }
     })
 
-    // key-press
-    // keypress
-      // Check for Enter Key []
-        // event.keyCode == 13
-
-        // object for weather-api
-        // construct-url(user-input)
-        // invoke-url
-        // response-mapper
-
-      // update the HTML elements
+   
   }
 }
 

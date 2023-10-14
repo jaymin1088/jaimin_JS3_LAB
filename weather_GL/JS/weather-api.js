@@ -1,8 +1,8 @@
 JS
-// Define a constant for APP_ID
-const APP_ID = "fbc0ee13d4cd0ca7ed7b116299399f34";
+// Define a constant default for APP_ID
+const APP_ID = "635871fcf96e0daf25cfe3323b9f2d87";
 
-// Define a constant for Units
+// Define a constant for Units for weather
 const UNITS = "metric"
 
 // Define the baseURL as a constant
