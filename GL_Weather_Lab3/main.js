@@ -120,7 +120,7 @@ function getBackgroundImage(status) {
     Fog: "./img/mist.jpg",
     Smoke: "./img/mist.jpg",
   };
-  return backgroundImages[status] || "img/bg.jpg";
+  return backgroundImages[status] || "./img/bg.jpg";
 }
 
 // Function to add leading zero to a number
